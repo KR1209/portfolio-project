@@ -1,0 +1,110 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Projects{% endblock title %}
+
+{% block content %}
+<div class='bg-gray-800 text-white p-5 md:py-8 md:px-20 lg:px-40 xl:px-60'>
+  <p style="font-family: Poppins-Bold" class='text-4xl font-extrabold py-5 text-center md:text-start'>Projects Completed</p>
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="{% static 'images/Homecognify.png' %}" alt="Home Cognify Image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">
+              HOMECOGNIFY: Your cognitive oasis for nurturing minds and inspiring futures.<p>
+            <p class='text-justify my-3'>A web platform for children with disabilities, featuring interactive games to boost memory, attention, and thinking skills using html css and angular js.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Developed a web platform to enhance cognitive skills</li>
+              <li>&#9989;  Implemented interactive games.</li>
+              <li>&#9989;  Designed a user-friendly interface ensuring accessibility and engagement for children.
+              </li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> html</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> css</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-square-js"></i> angular js</span>
+            </div>
+          </div>
+      </div>
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="{% static 'images/handtracking.jpg' %}" alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">HandDetect Pro- Hand tracking System</p>
+            <p class='text-justify my-3'>HandTracking Project is a computer vision-based application developed using Python, OpenCV, and supporting libraries like cvzone and HandTrackingModule to detect and track hand movements in real time. The project focuses on intuitive interaction, leveraging efficient algorithms to ensure accurate tracking and seamless user experience.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Real-Time Hand Tracking Interface</li>
+              <li>&#9989; Gesture Control Integration</li>
+              <li>&#9989; Interaction Support</li>
+            </ul> fa-solid fa-server
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-python"></i> Python</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> CSS</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class=" fa-solid fa-server"></i> Js</span>
+            </div>
+          </div>
+      </div>
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+        <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="{% static 'images/courier.jpg' %}" alt="image">
+        <div>
+          <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Courier Management System</p>
+          <p class='text-justify my-3'>The Courier Management System is a web-based application developed using HTML, CSS, and MySQL, designed to streamline the management of courier services. It features a login page for authentication and an admin panel that allows administrators to manage orders, track deliveries, and access customer data efficiently.</p>
+          <ul class='mb-3'>
+            <li>&#9989; Data Management</li>
+            <li>&#9989; Effective deliveries</li>
+            <li>&#9989; Responsive Design</li>
+          </ul>
+          <span class='text-lg font-bold'>Technologies used</span><br>
+          <div class='flex space-x-2 my-3'>
+          <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-mysql"></i> MySSql</span>
+          <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> html</span>
+          <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> css</span>
+          </div>
+        </div>
+      </div>
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="{% static 'images/to-do.jpg' %}" alt="TO-DO">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">Daily Task Tracker - to-do list</p>
+            <p class='text-justify my-3'>A clean and responsive to-do list web application built with HTML and CSS, designed for efficient task management and simple user interaction.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Task Management with Responsive Design</li>
+              <li>&#9989; Cross-Platform Compatibility</li>
+              <li>&#9989; User-Friendly</li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> HTML</span>
+              <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> css</span>
+            </div>
+            <div class='flex space-x-4 my-3'>
+              <a href='https://github.com/KR1209/to-do-list-'  target = '_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-slate-700 outline hover:outline-none outline-slate-700 transition delay-75 ease-in-out my-3'><i class="bi bi-github"></i> Github</button></a>              
+            </div>
+          </div>
+      </div>
+      <div style="box-shadow:0 5px 30px 0 rgba(0,0,0,.05);" class='flex flex-col md:flex-row gap-4 md:gap-x-8 bg-gray-900 p-5 mb-4 rounded-lg'>
+          <img class="post-img-url rounded-lg object-cover" width='350px' height='180px' src="{% static 'images/shopping website.jpg' %}" alt="image">
+          <div>
+            <p style="font-family: Poppins-Bold" class="font-bold text-xl text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-300 to-blue-600">ThreadTrove - Shopping Website</p>
+            <p class='text-justify my-3'>A modern and responsive e-commerce shopping website built with HTML, CSS, and JavaScript, designed for seamless navigation and an intuitive user experience.</p>
+            <ul class='mb-3'>
+              <li>&#9989; Modern Styles</li>
+              <li>&#9989; Responsive Design</li>
+              <li>&#9989; Easy Navigation</li>
+            </ul>
+            <span class='text-lg font-bold'>Technologies used</span><br>
+            <div class='flex space-x-2 my-3'>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-html5"></i> HTML</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-css3-alt"></i> css</span>
+            <span class='text-xs bg-gradient-to-r from-cyan-500 to-blue-500 py-1 px-4 rounded-full'><i class="fa-brands fa-square-js"></i> Js</span>
+            </div>
+            <div class='flex space-x-4 my-3'>
+              <a href='https://github.com/KR1209/shopping-website' target = '_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-slate-700 outline hover:outline-none outline-slate-700 transition delay-75 ease-in-out my-3'><i class="bi bi-github"></i> Github</button></a>              
+            </div>
+          </div>
+      </div>
+      <div class='flex justify-center'>
+        <a href='https://github.com/KR1209' target='_blank' class=''><button class='bg-gray-800 p-2 px-4 rounded-[6px] hover:bg-blue-600 outline hover:outline-none outline-blue-600 transition delay-75 ease-in-out my-3'>Load more <i class="bi bi-arrow-clockwise font-extrabold"></i></button></a>
+      </div>
+</div>
+      {% endblock %}
