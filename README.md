@@ -10,9 +10,9 @@
 ![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
 ## Introduction
-**"Django Tailwind Blog"** is a developer blog and portfolio website built using **Django** and **Tailwind CSS**. It includes several pages such as Home, About, Contact, Blog, Projects, Categories, and custom 404 pages. The project features a clean and modern design that is fully responsive and optimized for performance. It includes a powerful admin interface for managing the content, and is easy to customize and deploy to a production environment.
+**"Portfolio website"** is a developer portfolio website built using **Django** and **Tailwind CSS**. It includes several pages such as Home, About, Contact, Projects,  pages. The project features a clean and modern design that is fully responsive and optimized for performance. It includes a powerful admin interface for managing the content, and is easy to customize and deploy to a production environment.
 
-![django-tailwind-blog-for-developers](https://user-images.githubusercontent.com/106135144/227858936-d4cbcb44-9ff4-4729-b0f0-6ede931b99e0.png)
+
 
 ## Table of Content
   * [Introduction](#introduction)
@@ -20,8 +20,6 @@
   * [Technologies Used](#technologies-used)
   * [Features](#features)
   * [Pages](#pages)
-  * [Website Screenshots](#website-screenshots)
-  * [Admin Screenshots](#admin-screenshots)
   * [Deployment](#deployment)
   * [Conclusion](#conclusion)
   
@@ -90,30 +88,8 @@ python manage.py runserver
 - `Home`: The landing page of the website, which displays a brief introduction and links to other pages.
 - `About`: A page that provides information about the site owner, their background, and skills.
 - `Contact`: A page that contains a contact form for visitors to send messages to the site owner.
-- `Blog`: A page that displays a list of blog posts in reverse chronological order, with links to individual post pages.
-- `Blog Post`: A page that displays the content of a single blog post, including the title, author, date, and content.
 - `Projects`: A page that displays a list of portfolio projects, with links to individual project pages.
 - `Project`: A page that displays the details of a single portfolio project, including the title, description, date, and any relevant images or links.
-- `Categories`: A page that displays a list of blog post categories, with links to filtered lists of posts for each category.
-- `Custom 404 Pages`: Custom error pages that display when a user navigates to a non-existent page or encounters an error.
-
-## Website Screenshots
-![127 0 0 1_8000_about](https://user-images.githubusercontent.com/106135144/218676693-b433a723-0569-4a5a-91e2-d2330659233d.png)
-
-![127 0 0 1_8000_contact](https://user-images.githubusercontent.com/106135144/218676709-3924f790-32db-46f3-a1b5-bf1907506751.png)
-
-![127 0 0 1_8000_blog](https://user-images.githubusercontent.com/106135144/218676733-bc2313e9-9721-4f4b-9fd8-ab7cfa939221.png)
-
-![127 0 0 1_8000_projects](https://user-images.githubusercontent.com/106135144/218676756-3770e70e-149b-48ae-af50-44d1ee43aed6.png)
-
-![127 0 0 1_8000_projectsk](https://user-images.githubusercontent.com/106135144/218676780-62e72dd7-d2e4-4ef9-9b2b-aea25abf625d.png)
-
-## Admin Screenshots
-![127 0 0 1_8000_admin_](https://user-images.githubusercontent.com/106135144/218730427-1aad64b4-65ff-44e4-babf-840d200919fa.png)
-
-![127 0 0 1_8000_admin_home_blog_](https://user-images.githubusercontent.com/106135144/218730473-d914186d-eabf-4ff9-bc45-dd98c024cfb5.png)
-
-![127 0 0 1_8000_admin_home_blog_7_change_](https://user-images.githubusercontent.com/106135144/218730503-f4027aeb-7579-4fc6-8fa4-5331201931e8.png)
 
 ## Deployment
 To deploy this project to a web server, you can follow these general steps:
@@ -121,7 +97,7 @@ To deploy this project to a web server, you can follow these general steps:
 1. Set up a web server that can run Python applications. This could be a VPS, a PaaS like Heroku, or a cloud-based server like AWS.
 2. Clone the repository to your server:
 ```
-git clone https://github.com/ashish-makes/django-tailwind-blog.git
+git clone https://github.com/KR1209/portfolio-website.git
 ```
 3. Install the project dependencies on your server using `pip`:
 ```
@@ -155,4 +131,4 @@ python manage.py collectstatic
 ```python
 python manage.py runserver
 ```
-8. Access the website using your server's IP address or domain name, and the port number of the server if necessary. For example, if you're running the development server on port 8000, you can access the website at `http://your-server-ip:8000/`.
+8. Access the website using your server's IP address or domain name, and the port number of the server if necessary. For example, if you're running the development server on port 8000, you can access the website at `http://127.0.0.1:8000/`.
